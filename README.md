@@ -7,17 +7,17 @@ Alfred 3 Workflow——加载环境变量并运行mac应用
 
 比如Android Studio导入项目时找不到 `ANDROID_HOME`
 
-![ANDROID_HOME]()
+![ANDROID_HOME](https://raw.githubusercontent.com/licheedev/alfred-env-workflow/master/images/1.jpg)
 
 SourceTree无法通过 [connect](https://bitbucket.org/gotoh/connect/wiki/Home) SSH代理克隆项目
 
-![SourceTree无法使用SSH代理]()
+![SourceTree无法使用SSH代理](https://raw.githubusercontent.com/licheedev/alfred-env-workflow/master/images/2.jpg)
 
 如果通过终端 `open app` 来运行应用，结果都没问题，看来是直接运行app的话，是不会加载环境变量的。
 
 于是试着搞了个 Alfred Workflow ，先 `source ~/.bash_profile` 导入环境变量，再运行应用，效果不错。
 
-![演示]()
+![演示](https://raw.githubusercontent.com/licheedev/alfred-env-workflow/master/images/3.gif)
 
 [**Run App with ENV (bash ver).alfredworkflow**]()
 
