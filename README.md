@@ -25,7 +25,7 @@ SourceTree无法通过 [connect](https://bitbucket.org/gotoh/connect/wiki/Home) 
 
 [**Run App with ENV (zsh ver).alfredworkflow**](https://github.com/licheedev/alfred-env-workflow/raw/master/Run%20App%20with%20ENV%20(zsh%20ver).alfredworkflow)
 
-要注意的是，如果没有效果，可能需要在 `~/bash_profile` 或者 `~/zshrc` 文件里面加入下面这行
+要注意的是，如果没有效果，可能需要在 `~/.bash_profile` 或者 `~/.zshrc` 文件里面加入下面这行
 
 ```sh
 export PATH=${HOME}/bin:/usr/local/bin:${PATH}
